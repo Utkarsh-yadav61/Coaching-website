@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLIMAX ACADEMY</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="icon" type="image/x-icon" href="images/c1.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/983b42c504.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/climx logo.png"></a>
+            <div class="nav-links"id="navLinks">
+                <i class="fa fa-times" onclick="showMenu()"></i>
+                <ul>
+                    <li><a href="index.html"><b>HOME</b></a></li>
+                    <li> <a href="about.html"><b>ABOUT</b></a></li>
+                    <li><a href="course.html"><b>COURSE</b></a></li>
+                    <li><a href="certificate.html"><b>CERTIFICATES</b></a></li>
+                    <li><a href="contact.html"><b>CONTACT</b></a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="hideMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!---------Contact Us--------->
+
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7187.626482392395!2d83.36785196375007!3d25.74368895907502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3991ef1a6a6811e5%3A0xce709e553496ea3a!2sJakhanian%2C%20Uttar%20Pradesh%20275203!5e0!3m2!1sen!2sin!4v1693912187158!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </section>
+
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>M.R.D. PUBLIC SCHOOL(Behind govt. hospital)</h5>
+                        <p>Jakhanian, Ghazipur , U.P. , 275203</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5><a href="tel:7706887544">+91 7706887544 </a></h5>
+                        <h5><a href="tel:6307683128">+91 6307683128 </a></h5>
+                        <p>Monday to Saturday , 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5><a href="https://mail.google.com/">climaxacademy<br>jakhanian@gmail.com</a></h5>
+                        <p>Email Us Your Query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="Name" placeholder="Enter Your Name" required>
+                    <input type="email" name="Email" placeholder="Enter Email Address" required>
+                    <input type="text" name="Subject" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" name="Massage" placeholder="Massage" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Massage</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!---------Footer--------->
+
+    <section class="footer">
+        <h3>About Us</h3>
+        <h5>
+        Climax Academy, nestled in the picturesque town of Jakhanian, Ghazipur, Uttar Pradesh, is a beacon of educational excellence. Our institution stands as a testament to our unwavering commitment to nurturing young minds and fostering holistic development. With a rich heritage of academic achievement and a vision for the future, we provide a dynamic learning environment that combines tradition with innovation. Our dedicated faculty and state-of-the-art facilities empower students to explore, learn, and excel in their academic journey. At Climax Academy, we believe in the power of education to transform lives and communities, and we are proud to be a catalyst for positive change in Ghazipur and beyond.
+        </h5>
+        <div class="icons">
+            <a href="https://www.youtube.com/@2023climaxacademy" target="_blank"><i class="fa fa-youtube"></i></a>
+            <i class="fa fa-facebook"></i>
+            <a href="https://instagram.com/climaxacademy.in?igshid=MzRlODBiNWFlZA==" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://climaxacademy.co.in/" target="_blank"><i class="fa fa-google"></i></a>
+        </div>
+        <h5>Made by <i class="fa fa-heart-o"></i> SANDEEP YADAV</h5><br>
+        &copy Copyrights 2023<a href="https:climaxacademy.co.in">climaxacademy.co.in </a>
+        <p>All Rights Reserved CLIMAX Academy,Designed by RAS Software Services</p>
+    
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-----JAVASCRIPT FOR TOGGLE MENU---------->
+  
+
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function hideMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function showMenu(){
+            navLinks.style.right = "-200px";
+        }
+        if (navLinks.style.right === "0" || navLinks.style.right === "200px") {
+            hideMenu();
+        } else {
+            showMenu();
+        }
+    
+    </script>
+</body>
+</html>

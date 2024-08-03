@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLIMAX ACADEMY</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/x-icon" href="images/c1.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/983b42c504.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/climx logo.png"></a>
+            <div class="nav-links"id="navLinks">
+                <i class="fa fa-times" onclick="showMenu()"></i>
+                <ul>
+                    <li><a href="index.html"><b>HOME</b></a></li>
+                    <li> <a href="about.html"><b>ABOUT</b></a></li>
+                    <li><a href="course.html"><b>COURSE</b></a></li>
+                    <li><a href="certificate.html"><b>CERTIFICATES</b></a></li>
+                    <li><a href="contact.html"><b>CONTACT</b></a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="hideMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!---------about us content--------->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+            <h1>We are providing quality education in affordable price</h1>
+            <p>
+                
+                CLIMAX ACADEMY - Your Path to Success in UP Board Exams
+                
+                At [CLIMAX ACADEMY], we are your trusted partner in helping you excel in UP Board level examinations. With a deep understanding of the UP Board curriculum, a team of dedicated educators, and a commitment to academic excellence, we are your gateway to achieving top-notch results.
+                <BR></BR>
+                <B>Our Mission</B>
+                
+                Our mission is to nurture and guide students towards academic excellence in UP Board exams. We aim to provide comprehensive coaching that not only helps students ace their exams but also instills a love for learning and self-improvement.
+                <BR>
+                <B>Why Choose Us for UP Board Coaching?</B>
+                <BR>
+                - <B>Expert Faculty:</B> Our team of experienced educators is well-versed in the UP Board syllabus and examination patterns. They bring a wealth of knowledge and a passion for teaching to ensure that you receive the best guidance.
+                <BR>
+                - <B>Customized Learning :</B> We understand that every student is unique. Our coaching programs are tailored to address the specific needs and learning styles of each student, ensuring optimal results.
+                <BR>
+                - <B>Comprehensive Curriculum:</B> Our coaching covers all subjects and topics required for UP Board exams, providing students with a well-rounded understanding of their coursework.
+                <BR>
+                - <B>Exam-focused Approach:</B> We equip students with exam strategies, time management techniques, and practice tests to boost their confidence and exam performance.
+                <BR>
+                <B>Our Courses</B>
+                
+                We offer coaching for various UP Board level exams, including:
+                <BR>
+                - <B>Class 10th (High School) Coaching:</B> Prepare for your UP Board Class 10th exams with our expert guidance, ensuring you score excellent marks.
+                <BR>
+                - <B>Class 12th (Intermediate) Coaching:</B> Excel in your UP Board Class 12th exams with our comprehensive coaching, helping you secure top rankings.
+                <BR>
+                <B>Join Us Today</B>
+                <BR>
+                When you choose [CLIMAX ACADEMY], you're choosing a path to success in UP Board exams. We invite you to take the first step toward achieving your academic goals by enrolling in our coaching programs. Let us guide you towards excellence in UP Board exams and help you shape a brighter future.
+                
+                Contact us today to learn more about our coaching programs, schedules, and how we can assist you in your academic journey.
+                
+                ---
+                
+                Feel free to modify and customize this "About Us" section to align with your coaching center's specific offerings, values, and goals. Emphasize your commitment to helping students succeed in UP Board exams and the expertise of your faculty in delivering top-notch education.</p>
+            <a href="contact.html" class="hero-btn red-btn" target="_blank">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about2.jpg">
+            <img src="images/about3.jpg">
+            <img src="images/about4.jpg">
+        </div>
+    </div>
+    </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!---------Footer--------->
+
+    <section class="footer">
+        <h3>About Us</h3>
+        <h5>
+        Climax Academy, nestled in the picturesque town of Jakhanian, Ghazipur, Uttar Pradesh, is a beacon of educational excellence. Our institution stands as a testament to our unwavering commitment to nurturing young minds and fostering holistic development. With a rich heritage of academic achievement and a vision for the future, we provide a dynamic learning environment that combines tradition with innovation. Our dedicated faculty and state-of-the-art facilities empower students to explore, learn, and excel in their academic journey. At Climax Academy, we believe in the power of education to transform lives and communities, and we are proud to be a catalyst for positive change in Ghazipur and beyond.
+        </h5>
+        <div class="icons">
+            <a href="https://www.youtube.com/@2023climaxacademy" target="_blank"><i class="fa fa-youtube"></i></a>
+            <i class="fa fa-facebook"></i>
+            <a href="https://instagram.com/climaxacademy.in?igshid=MzRlODBiNWFlZA=="><i class="fa fa-instagram"></i></a>
+            <a href="https://climaxacademy.co.in/" target="_blank"><i class="fa fa-google"></i></a>
+        </div>
+        <h5>Made by <i class="fa fa-heart-o"></i> SANDEEP YADAV</h5><br>
+        &copy Copyrights 2023<a href="climaxacademyjakhanian.in">climaxacademyjakhanian.in </a>
+        <p>All Rights Reserved CLIMAX Academy,Designed by ACE Software Services</p>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-----JAVASCRIPT FOR TOGGLE MENU---------->
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function hideMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function showMenu(){
+            navLinks.style.right = "-200px";
+        }
+        if (navLinks.style.right === "0" || navLinks.style.right === "200px") {
+            hideMenu();
+        } else {
+            showMenu();
+        }
+    
+    </script>
+</body>
+</html>
